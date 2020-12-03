@@ -1,1 +1,1 @@
-awk '{ printf "%s",n, bash }' rawinput >input
+awk '{ printf "\"%s\",\n", $0 }' rawinput >input
